@@ -1,3 +1,3 @@
 language: python
 script:
-  - python Serveur.py
+  - python app/Coucou.py

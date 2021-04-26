@@ -3,7 +3,7 @@
         "folder": "app"
     },
     "deploy": {
-        "module": "Coucou:app",
-        "static": "/clevercloud/static/"
+        "module": "Coucou:app"
+
     }
 }

